@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    height: 100vh;
+    gap: 20px;
+}
+
+.error-message {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: rgb(244, 111, 111);
+    text-align: center;
+}
+
+section div:nth-of-type(2) {
+    background-color: white;
+    padding: 10px;
+}
+
+section div:first-of-type {
+    height: 15vh;
+    background-color: white;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+
+section div form {
+    /* min-height: 60vh; */
+    margin: 30px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    align-items: center;
+}
+
+section div:last-of-type {
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
+
+section div form input {
+    width: 90%;
+    padding: 10px;
+}
+
+section div form input[type=submit] {
+    background-color: darkviolet;
+    color: white;
+    bottom: 0;
+}
+
+section div:nth-of-type(2) {
+    background-color: white;
+    padding: 10px;
+}
+
+section div:first-of-type {
+    height: 15vh;
+    background-color: white;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+
+section div table td,
+th,
+thead,
+tbody {
+    text-align: center;
+}
+
+section div table {
+    height: auto;
+    width: 80%;
+    margin: 30px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+section div:last-of-type {
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
+
+.success-message {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: greenyellow;
+    text-align: center;
+}
